@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MEDIA</title>
+    <link rel="stylesheet" href="media.css">
+</head>
+<body>
+    <header>
+        <h1>WELCOME TO MY INTRODUCTORY PAGE</h1>
+    </header>
+    <nav>
+        <a href="table.html">Home</a>
+        <a href="media.html">Introduction</a>
+    </nav>
+    <main>
+    <section>
+        <h2>ABOUT ME</h2>
+        <h3>My Picture </h3>
+        <picture>
+            <source srcset="./Assets/Images/AltSchoolImage.jpeg" media="(min-width: 900px)">
+            <source srcset="./Assets/Images/AltSchoolImage.jpeg" media="(min-width: 600px)">
+            <source srcset="./Assets/Images/AltSchoolImage.jpeg" media="(min-width: 300px)">
+            <img src="./Assets/Images/AltSchoolImage.jpeg" alt="Oladapo, Esther">
+        </picture>
+    </section>
+    <section>
+        <h2>Audio Introduction</h2>
+        <audio src=".//Assets/Audios/AltSchoolAudio.aac" type="audio/aac" controls> 
+            Your browser does not support the audio element.</audio>
+    </section>
+    <section>
+        <h2>Video Introduction</h2>
+        <video src="./Assets/Videos/AltSchoolVideo.mp4" type="video/mp4" controls>
+            Your browser does not support the video tag.
+        </video>
+    </section>
+</body>
+</html>

@@ -1,0 +1,128 @@
+/* CSS RESET - START */
+/* 1. Use a more-intuitive box-sizing model */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* 2. Remove default margin */
+* {
+  margin: 0;
+}
+
+body {
+  /* 3. Add accessible line-height */
+  line-height: 1.5;
+  /* 4. Improve text rendering */
+  -webkit-font-smoothing: antialiased;
+}
+
+/* 5. Improve media defaults */
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+/* 6. Inherit fonts for form controls */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* 7. Avoid text overflows */
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+/* 8. Improve line wrapping */
+p {
+  text-wrap: pretty;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-wrap: balance;
+}
+
+/*
+    9. Create a root stacking context
+  */
+#root,
+#__next {
+  isolation: isolate;
+}
+/* CSS RESET - END */
+
+a {
+    color: rgb(128, 113, 131);
+}
+a:hover{
+    color: rgb(77, 5, 61);
+}
+a:visited {
+    color: rgb(201, 68, 228);
+}
+
+body {
+    background-color: #fff;
+    width: 100%;
+    height: 920px;
+    margin:  auto;
+    padding: 3%;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    width: 100%;
+    height: 50px;
+    padding-top: 3%;
+    padding-bottom: 7%;
+    margin-bottom: 2%;
+    text-align: center;
+    background-color: rgb(201, 68, 228);
+    border-bottom: 2px solid rgb(77, 5, 61);;
+    
+    h1 {
+        font-size: 30px;
+        font-weight: 700;
+        color: burlywood;
+        letter-spacing: 0.1%;
+    }
+}
+nav {
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+    width: 100%;
+    height: 20px;
+    margin-bottom: 5%;
+}
+caption {
+    color: rgb(201, 68, 228);
+    font-size: 30px;
+    font-weight: 600
+}
+table, th, td {
+    border: 1px solid  rgb(201, 68, 228);
+}
+table {
+    width: 100%;
+    height: 450px;
+    border-collapse: collapse;
+}
